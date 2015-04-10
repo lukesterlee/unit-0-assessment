@@ -135,8 +135,8 @@ public class Unit0Tests {
     }
 
     public static void changeTuringsCityToPrinceton(HashMap<String, Person> people) {
-        Person alan = new Person("Alan Turing");
-        alan.setCity("Prinston");
+        Person alan = people.get("Alan Turing");
+        alan.setCity("Princeton");
         people.put("Alan Turing", alan);
 
     }
